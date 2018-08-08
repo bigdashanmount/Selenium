@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="孟祥山的测试套件">
+
+    <test name="孟祥山的测试模块">
+        <classes>
+            <class name="com.mushishi.testCase.LoginBuyOne">
+                <methods>
+
+                    <include name="getLoginHome()"/>
+                    <include name="testLogin()"/>
+                    <include name="downOrder()"/>
+                </methods>
+
+            </class>
+        </classes>
+
+    </test>
+    <listeners>
+        <listener class-name="demo.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>
