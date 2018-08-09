@@ -12,11 +12,38 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
                 <configuration>
-                    <source>6</source>
-                    <target>6</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.12</version>
+                <inherited>true</inherited>
+                <configuration>
+                    <suitXmlFiles>
+                                <suiXmlfile>testNG.xml</suiXmlfile>
+                    </suitXmlFiles>
+                </configuration>
+            </plugin>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </plugins>
     </build>
 
@@ -58,4 +85,9 @@
             <version>6.14.3</version>
         </dependency>
     </dependencies>
+
+
+
+
+
 </project>
