@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="孟祥山的测试套件">
-
-    <test name="孟祥山的测试模块">
+<!--设置线程组，多线程要设置多个测试类才会执行-->
+<suite name="孟祥山的测试套件" parallel="true" thread-count="2">
+    <!--参数化，在方法上添加@paameterh-->
+        <parameter name="username" value="850512700@qq.com"/>
+        <parameter name="password" value="shan6500333jing"/>
+    <test name="孟祥山的测试模块111">
         <classes>
-            <class name="com.mushishi.testCase.LoginBuyOne">
+            <class name="com.mushishi.testCase.LoginBuyCar">
                 <methods>
 
                     <include name="getLoginHome()"/>
                     <include name="testLogin()"/>
-                    <include name="downOrder()"/>
+                    <include name="TestAddCart()"/>
+                    <include name="TestSureOrder()"/>
+                    <include name="TestGoPay()"/>
                 </methods>
 
             </class>
         </classes>
 
     </test>
+
     <listeners>
         <listener class-name="demo.ExtentTestNGIReporterListener"/>
     </listeners>

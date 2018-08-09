@@ -33,6 +33,22 @@ public class BasePage {
             System.out.println(element+"元素没有定位到，失败"+value);
         }
     }
+
+    /**
+     * 层级定位，通过父节点定位到子节点
+     * 需要传入父节点和子节点的by
+     * */
+    public WebElement nodeElement(By by,By nodeby){
+        WebElement el = this.element(by);
+        return el.findElement(nodeby);
+    }
+    //获取文本信息
+    public String getText(WebElement element){
+        return  element.getText();
+    }
+
+
+
     //判断元素是否显示
     public boolean assertElementIs(WebElement element){
         return element.isDisplayed();
@@ -44,5 +60,11 @@ public class BasePage {
     ////判断元素是否被选中
     public boolean assertElementSe(WebElement element){
         return element.isSelected();
+    }
+    /**
+     * action事件
+     * */
+    public void action(WebElement element){
+        driver.action(element);
     }
 }

@@ -1,9 +1,9 @@
 package com.mushishi.base_serve_driver;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
+
+import java.util.Set;
 
 /**
  * 先建立driver驱动，然后去调用浏览器驱动
@@ -26,9 +26,10 @@ public class DriverBase {
         driver.manage().window().maximize();
     }
     //封装element
-    public WebElement findElement (By by){
+
+    public WebElement findElement(By by){
         WebElement element = driver.findElement(by);
-        return  element;
+        return element;
     }
 
     //封装get
@@ -51,5 +52,54 @@ public class DriverBase {
     public void click(WebElement element){
         element.click();
     }
+
+    /**
+     * 切换windows窗口
+     * */
+    public void switchWindows(String name){
+        driver.switchTo().window(name);
+    }
+
+    /**
+     * 切换alert窗口
+     * */
+    public void switchAlert(){
+        driver.switchTo().alert();
+    }
+    /**
+     * 模态框切换
+     * */
+    public void switchToMode(){
+        driver.switchTo().activeElement();
+    }
+    /**
+     * actionMoveElement
+     * */
+    public void action(WebElement element){
+        Actions action =new Actions(driver);
+        action.moveToElement(element).perform();
+    }
+    /**
+     * 获取cookcie
+     * @return
+     * */
+    public Set<Cookie> getCookie(){
+        Set<Cookie> cookies = driver.manage().getCookies();
+        return cookies;
+    }
+
+    /**
+     * 删除cookie
+     * */
+    public void deleteCookie(){
+        driver.manage().deleteAllCookies();
+    }
+    /**
+     * 设置cookie
+     * */
+    public void setCookie(Cookie cookie){
+        driver.manage().addCookie(cookie);
+    }
+
 }
 

@@ -1,9 +1,9 @@
-package com.mushishi.selenium.page;
+package com.mushishi.base_control_page;
 
+
+import com.mushishi.base_serve_driver.DriverBase;
+import com.mushishi.utils.GetByLocator;
 import org.openqa.selenium.WebElement;
-
-import com.mushishi.selenium.base.DriverBase;
-import com.mushishi.selenium.util.getByLocator;
 
 public class SureOrderPage extends BasePage{
 
@@ -13,8 +13,8 @@ public class SureOrderPage extends BasePage{
 	/**
 	 * 获取提交订单按钮
 	 * */
-	public WebElement getSubOrderElement(){
-		return element(getByLocator.getLocator("sureOrder"));
+	public WebElement getSubOrderElement() throws Exception {
+		return element(GetByLocator.GetLocator("sureOrder"));
 	}
 
 }

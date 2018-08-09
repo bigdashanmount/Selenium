@@ -3,17 +3,18 @@ package com.mushishi.base_control_page;
 import com.mushishi.base_serve_driver.DriverBase;
 import com.mushishi.utils.GetByLocator;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
 
 
-
-public class orderPayPage extends BasePage{
-	public orderPayPage(DriverBase driver){
+public class OrderPayPage extends BasePage{
+	public OrderPayPage(DriverBase driver){
 		super(driver);
 	}
 	
 	/**
 	 * 获取订单号element
 	 * */
+	@Test
 	public WebElement getOrderNumElement() throws Exception {
 		return element(GetByLocator.GetLocator("order"));
 	}

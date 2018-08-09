@@ -15,11 +15,13 @@ import org.testng.annotations.Test;
 public class LoginBuyOne extends CaseBase{
     public DriverBase driver;
     public LoginPagePro loginPagePro;
+
     //使用log4j日志,把当前类名称传入进去
     //static Logger logger = Logger.getLogger(LoginBuyOne.class);
     public LoginBuyOne(){
        this.driver = InitDriver("chrome");
        loginPagePro= new LoginPagePro(driver);
+
 
     }
     @Test

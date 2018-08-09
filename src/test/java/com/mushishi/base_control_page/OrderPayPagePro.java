@@ -1,7 +1,7 @@
-package com.mushishi.selenium.business;
+package com.mushishi.base_control_page;
 
-import com.mushishi.selenium.base.DriverBase;
-import com.mushishi.selenium.handle.OrderPayPageHandle;
+
+import com.mushishi.base_serve_driver.DriverBase;
 
 public class OrderPayPagePro {
 	public DriverBase driver;
@@ -13,7 +13,7 @@ public class OrderPayPagePro {
 	/**
 	 * 根据课程、订单判断跳转到支付页面
 	 * */
-	public void orderPayPro(){
+	public void orderPayPro() throws Exception {
 		String orderName = orderPayPageHandle.getOrderName();
 		String courseName = orderPayPageHandle.getOrderCourseName();
 		if(orderName !=null && courseName !=null){

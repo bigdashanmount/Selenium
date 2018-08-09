@@ -1,9 +1,6 @@
 package com.mushishi.utils;
 
-import java.io.BufferedInputStream;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.util.Properties;
 
 public class ProUtil {
@@ -34,8 +31,22 @@ public class ProUtil {
             String username = prop.getProperty(key);
             return username;
         }else {
-            System.out.println("获取可以值不对");
+            System.out.println("配置文件的key不正确，无法获取value!");
             return" ";
+        }
+    }
+    /**
+     * 写入内容
+     * */
+    public void writePro(String key,String value){
+        Properties pro = new Properties();
+        try {
+            FileOutputStream file = new FileOutputStream(filepath);
+            pro.setProperty(key, value);
+            pro.store(file, key);
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
         }
     }
 

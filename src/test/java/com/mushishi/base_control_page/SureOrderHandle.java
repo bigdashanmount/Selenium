@@ -1,7 +1,7 @@
-package com.mushishi.selenium.handle;
+package com.mushishi.base_control_page;
 
-import com.mushishi.selenium.base.DriverBase;
-import com.mushishi.selenium.page.SureOrderPage;
+
+import com.mushishi.base_serve_driver.DriverBase;
 
 public class SureOrderHandle {
 	public SureOrderPage sureorderpage;
@@ -13,7 +13,7 @@ public class SureOrderHandle {
 	/**
 	 * 点击确认订单按钮
 	 * */
-	public void clickSubOrderElement(){
+	public void clickSubOrderElement() throws Exception {
 		sureorderpage.click(sureorderpage.getSubOrderElement());
 	}
 }
