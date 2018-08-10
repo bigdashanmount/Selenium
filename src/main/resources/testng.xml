@@ -14,7 +14,7 @@
                     <include name="testLogin()"/>
                     <include name="TestAddCart()"/>
                     <include name="TestSureOrder()"/>
-                    <include name="TestGoPay()"/>
+
                 </methods>
 
             </class>

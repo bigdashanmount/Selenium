@@ -8,6 +8,15 @@
     <test name="Selenium的测试模块">
         <classes>
             <class name="com.mushishi.testCase.LoginBuyCar">
+                <methods>
+
+                    <include name="getLoginHome()"/>
+                    <include name="testLogin()"/>
+                    <include name="TestAddCart()"/>
+                    <include name="TestSureOrder()"/>
+
+                </methods>
+
             </class>
         </classes>
 
