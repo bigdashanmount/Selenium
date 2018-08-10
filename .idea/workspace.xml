@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="acde52b9-9002-4a1b-b1eb-dd000dafbe76" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginTest.properties" beforeDir="false" afterPath="$PROJECT_DIR$/loginTest.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mushishi/base_control_page/SureOrderHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mushishi/base_control_page/SureOrderHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mushishi/testCase/LoginBuyCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mushishi/testCase/LoginBuyCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mushishi/testCase/LoginBuyCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mushishi/testCase/LoginBuyCar.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testNG.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,10 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="LoginBuyCar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/mushishi/testCase/LoginBuyCar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-19">
+              <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="testNG.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testNG.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
+            <state relative-caret-position="161">
               <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
             </state>
           </provider>
@@ -88,11 +101,11 @@
         <option value="$PROJECT_DIR$/src/test/java/com/mushishi/utils/HandleCookie.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mushishi/testCase/Test001.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mushishi/testCase/SuiteTestBuy.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mushishi/base_control_page/SureOrderHandle.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mushishi/testCase/LoginBuyCar.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mushishi/testCase/LoginBuyCar.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mushishi/base_control_page/SureOrderHandle.java" />
         <option value="$PROJECT_DIR$/testNG.xml" />
       </list>
     </option>
@@ -155,14 +168,40 @@
               <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
               <item name="selenium" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
               <item name="selenium" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mushishi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mushishi" type="462c0819:PsiDirectoryNode" />
+              <item name="base_control_page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mushishi" type="462c0819:PsiDirectoryNode" />
+              <item name="testCase" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -182,7 +221,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -385,8 +424,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/百场汇/.ssh/workspace/muke/selenium/testNG.xml" />
-        <item itemvalue="TestNG.C:/Users/百场汇/.ssh/workspace/muke/selenium/src/main/resources/testng.xml" />
         <item itemvalue="TestNG.LoginBuyCar" />
+        <item itemvalue="TestNG.C:/Users/百场汇/.ssh/workspace/muke/selenium/src/main/resources/testng.xml" />
         <item itemvalue="TestNG.SuiteTestBuy" />
         <item itemvalue="Application.Test001" />
       </list>
@@ -430,7 +469,7 @@
       <workItem from="1533706795840" duration="714000" />
       <workItem from="1533707608268" duration="27888000" />
       <workItem from="1533784708546" duration="18868000" />
-      <workItem from="1533867700007" duration="7887000" />
+      <workItem from="1533867700007" duration="9593000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1533704700065</created>
@@ -443,21 +482,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SuiteTestBuy - 2018.08.09 at 17h 01m 58s.xml">
-      <configuration name="SuiteTestBuy" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SuiteTestBuy - 2018.08.09 at 17h 09m 04s.xml">
-      <configuration name="SuiteTestBuy" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SuiteTestBuy - 2018.08.09 at 17h 20m 07s.xml">
-      <configuration name="SuiteTestBuy" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SuiteTestBuy - 2018.08.09 at 17h 23m 04s.xml">
-      <configuration name="SuiteTestBuy" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginBuyCar - 2018.08.09 at 17h 23m 39s.xml">
-      <configuration name="LoginBuyCar" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_百场汇__ssh_workspace_muke_selenium_src_main_resources_testng_xml - 2018.08.09 at 17h 27m 42s.xml">
       <configuration name="C:/Users/百场汇/.ssh/workspace/muke/selenium/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -473,12 +497,27 @@
     <history-entry file="C__Users_百场汇__ssh_workspace_muke_selenium_testNG_xml - 2018.08.10 at 13h 47m 49s.xml">
       <configuration name="C:/Users/百场汇/.ssh/workspace/muke/selenium/testNG.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="LoginBuyCar - 2018.08.10 at 15h 15m 37s.xml">
+      <configuration name="LoginBuyCar" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_百场汇__ssh_workspace_muke_selenium_testNG_xml - 2018.08.10 at 15h 17m 19s.xml">
+      <configuration name="C:/Users/百场汇/.ssh/workspace/muke/selenium/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_百场汇__ssh_workspace_muke_selenium_testNG_xml - 2018.08.10 at 15h 20m 44s.xml">
+      <configuration name="C:/Users/百场汇/.ssh/workspace/muke/selenium/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_百场汇__ssh_workspace_muke_selenium_testNG_xml - 2018.08.10 at 15h 24m 47s.xml">
+      <configuration name="C:/Users/百场汇/.ssh/workspace/muke/selenium/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_百场汇__ssh_workspace_muke_selenium_testNG_xml - 2018.08.10 at 15h 25m 50s.xml">
+      <configuration name="C:/Users/百场汇/.ssh/workspace/muke/selenium/testNG.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164932000" />
+    <option name="totallyTimeSpent" value="166638000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -491,7 +530,7 @@
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.329429" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49853587" visible="true" weight="0.3009554" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49853587" visible="true" weight="0.37261146" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.51592356" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
@@ -583,20 +622,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="485">
           <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mushishi/base_control_page/CoursePagePro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="17" column="61" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mushishi/base_control_page/CoursePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -614,6 +642,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -681,13 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/element.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mushishi/base_control_page/HomePagePro.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
@@ -706,6 +730,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="37" column="4" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -778,83 +805,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mushishi/base_control_page/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#1183#1184#0" expanded="true" />
-            <element signature="e#1224#1225#0" expanded="true" />
-            <element signature="docComment;method#action#0;class#BasePage#0" />
-            <element signature="e#1650#1651#0" expanded="true" />
-            <element signature="e#1688#1689#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mushishi/base_serve_driver/DriverBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mushishi/base_control_page/OrderPayPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/loginTest.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mushishi/base_control_page/SureOrderHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mushishi/base_control_page/SureOrderPagePro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mushishi/base_control_page/OrderPayPageHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-181">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mushishi/base_control_page/OrderPayPagePro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mushishi/testCase/LoginBuyCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -872,9 +826,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/element.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-294">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mushishi/base_control_page/OrderPayPagePro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mushishi/base_control_page/CoursePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-298">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mushishi/base_serve_driver/DriverBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#DriverBase#0;class#DriverBase#0" />
+            <element signature="method#quit#0;class#DriverBase#0" />
+            <element signature="method#js#0;class#DriverBase#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mushishi/base_control_page/OrderPayPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mushishi/base_control_page/OrderPayPageHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-148">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mushishi/base_control_page/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#1183#1184#0" expanded="true" />
+            <element signature="e#1224#1225#0" expanded="true" />
+            <element signature="docComment;method#action#0;class#BasePage#0" />
+            <element signature="e#1650#1651#0" expanded="true" />
+            <element signature="e#1688#1689#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mushishi/base_control_page/CoursePagePro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-907">
+          <caret line="17" column="61" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mushishi/base_control_page/SureOrderHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mushishi/base_control_page/SureOrderPagePro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mushishi/testCase/LoginBuyCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testNG.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
+        <state relative-caret-position="161">
           <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
         </state>
       </provider>
