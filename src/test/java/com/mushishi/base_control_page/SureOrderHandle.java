@@ -15,5 +15,6 @@ public class SureOrderHandle {
 	 * */
 	public void clickSubOrderElement() throws Exception {
 		sureorderpage.click(sureorderpage.getSubOrderElement());
+		driver.quit();
 	}
 }

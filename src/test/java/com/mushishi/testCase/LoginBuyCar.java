@@ -68,9 +68,9 @@ public class LoginBuyCar extends CaseBase{
         Thread.sleep(3000);
     }
     //跳转 支付页面
-    @Test(dependsOnMethods = {"TestSureOrder"})
-    public  void TestGoPay() throws Exception {
-        orderPayPagePro.orderPayPro();
-    }
+   // @Test(dependsOnMethods = {"TestSureOrder"})
+  //  public  void TestGoPay() throws Exception {
+     //   orderPayPagePro.orderPayPro();
+   // }
 
 }
